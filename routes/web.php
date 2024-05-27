@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+Route::get('/', [SiteController::class, 'index'])->name('home');
 
 Route::get('placeholder-image/{size}', [SiteController::class, 'placeholderImage'])->name('placeholder.image');

@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class SiteController extends Controller
 {
+
+    public function index()
+    {
+        return view('web.home');
+    }
+
     public function placeholderImage($size = null)
     {
         $imgWidth = explode('x', $size)[0];
