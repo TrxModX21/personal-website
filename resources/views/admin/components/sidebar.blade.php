@@ -65,7 +65,8 @@
                     </li>
 
                     {{-- USERS MANAGEMENT SECTION --}}
-                    <li class="sidebar-main-title">
+                    
+                    {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Managemen Admin Kabupaten')</h6>
                         </div>
@@ -81,10 +82,11 @@
                             </svg>
                             <span>@lang('Admin Kabupaten')</span>
                         </a>
-                    </li>
+                    </li> --}}
 
                     {{-- CONTENT MANAGEMENT --}}
-                    <li class="sidebar-main-title">
+                    
+                    {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Konten Management')</h6>
                         </div>
@@ -142,10 +144,11 @@
                             <i class="fa fa-hacker-news text-light"></i>
                             <span>@lang('Managemen Berita')</span>
                         </a>
-                    </li>
+                    </li> --}}
 
                     {{-- WEBSITE MANAGEMENT SECTION --}}
-                    <li class="sidebar-main-title">
+                   
+                    {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Website Management')</h6>
                         </div>
@@ -194,7 +197,7 @@
                             <i class="fa fa-diagram-project text-light"></i>
                             <span>@lang('SEO')</span>
                         </a>
-                    </li>
+                    </li> --}}
 
                     {{-- REPORT SECTION --}}
                     {{-- <li class="sidebar-main-title">
@@ -228,7 +231,8 @@
                     </li> --}}
 
                     {{-- GENERAL SETTINGS SECTION --}}
-                    <li class="sidebar-main-title">
+                  
+                    {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Pengaturan Website')</h6>
                         </div>
@@ -282,7 +286,7 @@
                             </li>
                             <li><a href="projectcreate.html">Create new</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
 

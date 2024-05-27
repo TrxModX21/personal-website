@@ -13,4 +13,5 @@ Route::middleware('admin')->group(function () {
     Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+    Route::get('/profile', [AdminController::class, 'profileIndex'])->name('profile.index');
 });

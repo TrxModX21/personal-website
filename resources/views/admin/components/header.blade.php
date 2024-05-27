@@ -124,9 +124,9 @@
 
                     <li class="profile-nav onhover-dropdown px-0 py-0">
                         <div class="d-flex profile-media align-items-center">
-                            <img class="img-40 rounded-circle"
-                                src="{{ getImage('assets/admin/images/profile/' . auth()->guard('admin')->user()->image) }}"
-                                alt="image">
+                            <img class="img-50 rounded-circle"
+                                src="{{ getImage(getFilePath('adminProfile') . '/' . auth()->guard('admin')->user()->image) }}"
+                                alt="@lang('Image')">
                             <div class="flex-grow-1">
                                 <span>
                                     {{ auth()->guard('admin')->user()->username }}
