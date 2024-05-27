@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="card-body">
-                        <form action="{{ route('admin.password.update') }}" method="POST">
+                        <form action="{{ route('admin.profile.password.update') }}" method="POST">
                             @csrf
 
                             <div class="form-group mb-4">

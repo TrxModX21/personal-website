@@ -19,6 +19,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $general = gs();
+        $viewShare['general'] = $general;
+        $viewShare['emptyMessage'] = 'Currently there is no data!';
+
+        view()->share($viewShare);
     }
 }

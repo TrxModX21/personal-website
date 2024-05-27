@@ -65,7 +65,7 @@
                     </li>
 
                     {{-- USERS MANAGEMENT SECTION --}}
-                    
+
                     {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Managemen Admin Kabupaten')</h6>
@@ -85,7 +85,7 @@
                     </li> --}}
 
                     {{-- CONTENT MANAGEMENT --}}
-                    
+
                     {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Konten Management')</h6>
@@ -147,7 +147,7 @@
                     </li> --}}
 
                     {{-- WEBSITE MANAGEMENT SECTION --}}
-                   
+
                     {{-- <li class="sidebar-main-title">
                         <div>
                             <h6>@lang('Website Management')</h6>
@@ -231,15 +231,15 @@
                     </li> --}}
 
                     {{-- GENERAL SETTINGS SECTION --}}
-                  
-                    {{-- <li class="sidebar-main-title">
+                    <li class="sidebar-main-title">
                         <div>
-                            <h6>@lang('Pengaturan Website')</h6>
+                            <h6>@lang('General Website Settings')</h6>
                         </div>
                     </li>
                     <li class="sidebar-list">
                         <i class="fa fa-thumb-tack"></i>
-                        <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.setting.index') }}">
+                        <a class="sidebar-link sidebar-title link-nav"
+                            href="{{ route('admin.settings.general.index') }}">
                             <svg class="stroke-icon">
                                 <use href="{{ asset('assets/admin/svg/icon-sprite.svg#stroke-knowledgebase') }}">
                                 </use>
@@ -247,9 +247,10 @@
                             <svg class="fill-icon">
                                 <use href="{{ asset('assets/admin/svg/icon-sprite.svg#fill-knowledgebase') }}"></use>
                             </svg>
-                            <span>@lang('Pengaturan Global')</span>
+                            <span>@lang('Global Settings')</span>
                         </a>
                     </li>
+                    {{--
                     <li class="sidebar-list">
                         <i class="fa fa-thumb-tack"></i>
                         <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.setting.logo.icon') }}">

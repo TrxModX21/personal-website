@@ -1,15 +1,16 @@
 <?php
 use App\Lib\FileManager;
+use App\Models\GeneralSetting;
 
-// function gs()
-// {
-//     $general = Cache::get('GeneralSetting');
-//     if (!$general) {
-//         $general = GeneralSetting::first();
-//         Cache::put('GeneralSetting', $general);
-//     }
-//     return $general;
-// }
+function gs()
+{
+    $general = Cache::get('GeneralSetting');
+    if (!$general) {
+        $general = GeneralSetting::first();
+        Cache::put('GeneralSetting', $general);
+    }
+    return $general;
+}
 
 function fileManager()
 {
