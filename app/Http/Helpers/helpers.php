@@ -41,3 +41,14 @@ function getImage($image, $size = null)
     }
     return asset('assets/images/general/default.png');
 }
+
+function fileUploader($file, $location, $size = null, $old = null, $thumb = null)
+{
+    $fileManager = new FileManager($file);
+    $fileManager->path = $location;
+    $fileManager->size = $size;
+    $fileManager->old = $old;
+    $fileManager->thumb = $thumb;
+    $fileManager->upload();
+    return $fileManager->filename;
+}

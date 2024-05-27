@@ -47,7 +47,7 @@
                                         <use href="{{ asset('assets/admin/svg/icon-sprite.svg#search') }}"></use>
                                     </svg>
                                     <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100"
-                                        type="text" placeholder="@lang('Cari Menu...')" name="q" title="">
+                                        type="text" placeholder="@lang('Search Menu...')" name="q" title="">
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                     <li>
                         <div>
                             <a href="{{ route('home') }}" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                title="@lang('Kunjungi Website')" target="_blank">
+                                title="@lang('Visit Website')" target="_blank">
                                 <i data-feather="globe"> </i>
                             </a>
                         </div>
@@ -124,7 +124,7 @@
 
                     <li class="profile-nav onhover-dropdown px-0 py-0">
                         <div class="d-flex profile-media align-items-center">
-                            <img class="img-50 rounded-circle"
+                            <img class="img-30 rounded-circle"
                                 src="{{ getImage(getFilePath('adminProfile') . '/' . auth()->guard('admin')->user()->image) }}"
                                 alt="@lang('Image')">
                             <div class="flex-grow-1">
@@ -138,7 +138,7 @@
                             <li>
                                 <a href="{{ route('admin.profile.index') }}">
                                     <i data-feather="user"></i>
-                                    <span>@lang('Profil')</span>
+                                    <span>@lang('Profile')</span>
                                 </a>
                             </li>
 
